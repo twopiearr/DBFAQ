@@ -1,12 +1,12 @@
 **Q: Where does Diffusion Bee keep it's models/images/other support files?**
-
-A: In a hidden directory in your User directory called .diffusionbee. The easiest way to expose it is to open a Terminal window and type `open ~/.diffusionbee` and hit Return; you can close the Terminal window once you're done. If you want more details, google "Mac OS X hidden directories". 
-
+*A: In a hidden directory in your User directory called .diffusionbee. The easiest way to expose it is to open a Terminal window and type `open ~/.diffusionbee` and hit Return; you can close the Terminal window once you're done. If you want more details, google "Mac OS X hidden directories". 
 
 **Q: What model does Diffusion Bee use?**
+
 A: Diffusion Bee is currently available in a "low quality" FP16 version that uses the MPS backend, and a "high quality" FP32 version that uses the TensorFlow backend. The "low quality" version uses the 1.5 model, the "high quality" version uses the 1.4 model. You can load custom models into either version.
 
-Q: How do I load a new model into Diffusion Bee?
+**Q: How do I load a new model into Diffusion Bee?**
+
 A: From the hamburger menu in the upper right corner, select Settings. From that screen you should find a button to import a new model. Once you have imported the model, Diffusion Bee has no more use for the .ckpt file, so you can delete it or archive it as you see fit.
 
 Q: I tried that, but it gave me an error instead of loading the model. What do I do?
